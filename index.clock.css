@@ -1,0 +1,90 @@
+#container {
+  /* border: 2px solid green; */
+  height: 40vw;
+  width: 40vw;
+  /* height: 440px; */
+  /* width: 440px; */
+  background: url("clock.png") no-repeat;
+  background-size: 100%;
+  margin: auto;
+  position: relative;
+  z-index: -1;
+}
+#hour,
+#minute,
+#second {
+  position: absolute;
+  background: black;
+  border-radius: 10px;
+  transform-origin: bottom;
+}
+#hour {
+  width: 3%;
+  height: 26%;
+  top: 25%;
+  left: 48.2%;
+  opacity: 0.7;
+  /* background: #ff8000; */
+}
+#minute {
+  width: 2%;
+  height: 30%;
+  top: 20%;
+  left: 48.7%;
+  opacity: 0.9;
+  /* background-color: #000080; */
+}
+#second {
+  width: 1%;
+  height: 36%;
+  top: 14%;
+  left: 49.3%;
+  /* background-color: #138808; */
+}
+/* ////////////////////////////////////////////////////////////////// */
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+  z-index: -1;
+}
+
+#side {
+    position: fixed;
+    margin-left: 1vw;
+    margin-top: 15vw;
+    color: red;
+    text-align: center;
+    font-family: "Tinos", serif;
+    font-size: 12px;
+    padding: 56px;
+    background: rgba(240, 248, 255, 0.719);
+    border-radius: 100%;
+    
+    
+}
+#side1 {
+    position: fixed;
+    
+    color: rgb(0, 60, 255);
+    text-align: center;
+    font-family: "Tinos", serif;
+    font-size: 12px;
+    padding: 56px;
+    background: rgba(240, 248, 255, 0.719);
+    border-radius: 100%;
+  margin-bottom: 18vh;
+  
+    
+}
+#flex{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin: auto;
+    justify-content: flex-end;
+    align-content: center;
+    flex-wrap: nowrap;
+}
